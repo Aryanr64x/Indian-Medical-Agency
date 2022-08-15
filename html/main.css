@@ -1,0 +1,57 @@
+/* Hero secton */
+.hero-section{
+   background:linear-gradient(0deg, rgba(0, 119, 255, 0.7), rgba(0, 119, 255, 0.7)), url("doctor2.jpg");
+   border-bottom-right-radius: 300px;
+   background-size: cover; 
+   background-blend-mode: multiply;
+
+}
+
+.hero-wrapper{
+    padding-top: 192px;
+}
+
+.hero-header{
+    line-height: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-header {
+      line-height: 40px;
+    }
+    .hero-section{
+            border-bottom-right-radius: 200px;
+    }
+  }
+
+
+  .nav-link-button{
+    padding-top: 10;
+    padding-bottom: 10;
+
+  }
+
+
+  /* Approch section */
+  .approach-card{
+    max-width: 300px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 2px 2px #000000;
+    border-radius: 5px;
+    min-height: 100px;
+    
+  }
+
+  /* Contact section */
+  .contact-row{
+    min-height: 50vh;
+  }
+
+  .contact-left{
+    
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url("contact.jpg");
+    background-size: cover;
+  }
